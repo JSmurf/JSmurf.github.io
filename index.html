@@ -1,29 +1,9 @@
 <!DOCTYPE html>
 <html>
-<script>
-$(document).ready(function() {
-var quoArr = [
-  ['"I peed in an alley which happened to have a church which I did not see because I was drunk!"',"-Barney"],['"The best I can give you is a fake smile and dead eyes."',"-Robin"],['"Your package has always been big enough. You may not realize this Marshall Eriksen, but you’ve got a huge package!"',"-Lily"],['"We struggle so hard to hold on to these things that we know are gonna disappear eventually. And that’s really noble."',"-Lily"],['"Whenever I’m sad, I stop being sad and be awesome instead."',"-Barney"],['"Because sometimes even if you know how something’s gonna end that doesn’t mean you can’t enjoy the ride."', "-Ted"],['"The littlest thing can cause a ripple effect that changes your life. "',"-Ted"]['"That’s life, you know, we never end up where you thought you wanted to be."',"-Marshall"]
-];
-  
-  
-  $("#getQuote").on("click", function(){
-    var i = Math.floor(Math.random() * (quoArr.length));
-    var theQuote = quoArr[i][0];
-    var theChar = quoArr[i][1];
-      $(".quote").html(theQuote);
-    $(".character").html(theChar);
-    });
-  
-  $('#tweet').click(function() {
-tweetIt();
-  });
-  function tweetIt(){
-       var theTweet = quote.text + " " + character.text;
- window.open('https://twitter.com/home/?status=');
-  };
-  });
-</script>
+<head>
+<script type="text/javascript" src="quoteGenerator.js"></script>
+<link rel="stylesheet" type="text/css" href="quoteGenerator.css" />
+</head>
 <body>
 <div class="container-fluid">
   <div class = "row text-center">
