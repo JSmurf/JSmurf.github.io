@@ -1,7 +1,51 @@
 <!DOCTYPE html>
 <html>
+<script>
+$(document).ready(function() {
+var quoArr = [
+  ['"I peed in an alley which happened to have a church which I did not see because I was drunk!"',"-Barney"],['"The best I can give you is a fake smile and dead eyes."',"-Robin"],['"Your package has always been big enough. You may not realize this Marshall Eriksen, but you’ve got a huge package!"',"-Lily"],['"We struggle so hard to hold on to these things that we know are gonna disappear eventually. And that’s really noble."',"-Lily"],['"Whenever I’m sad, I stop being sad and be awesome instead."',"-Barney"],['"Because sometimes even if you know how something’s gonna end that doesn’t mean you can’t enjoy the ride."', "-Ted"],['"The littlest thing can cause a ripple effect that changes your life. "',"-Ted"]['"That’s life, you know, we never end up where you thought you wanted to be."',"-Marshall"]
+];
+  
+  
+  $("#getQuote").on("click", function(){
+    var i = Math.floor(Math.random() * (quoArr.length));
+    var theQuote = quoArr[i][0];
+    var theChar = quoArr[i][1];
+      $(".quote").html(theQuote);
+    $(".character").html(theChar);
+    });
+  
+  $('#tweet').click(function() {
+tweetIt();
+  });
+  function tweetIt(){
+       var theTweet = quote.text + " " + character.text;
+ window.open('https://twitter.com/home/?status=');
+  };
+  });
+</script>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<div class="container-fluid">
+  <div class = "row text-center">
+    <h2>How I Met Your Mother Quotes</h2>
+  </div>
+  <div class = "row">
+    <div class = "col-xs-6 quoteBox well"> <div class = "quote">
+      Click "Suit Up!" to get a random quote.
+      </div>
+      <div class = "character">
+      </div>
+    </div>
+  </div>
+  <div class = "row text-center">
+    <div class = "col-xs-12">
+      <button id = "getQuote" class = "btn btn-primary">
+        Suit Up!
+      </button>
+      <button id = "tweet" class = "btn"> Tweet
+        </button
+    </div>
+  </div>
+</div>
 </body>
 </html>
