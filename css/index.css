@@ -1,0 +1,41 @@
+header {
+  background: url("http://jsmurf.github.io/header_background.jpeg");
+  background-position: center center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top:  200px;
+  padding-bottom: 250px;
+}
+.heading {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+}
+#about {
+  text-align: center;
+  padding: 50px;
+}
+
+#projects {
+  padding-top: 50px;
+}
+
+.projectItem {
+  height: 250px;
+}
+
+#contact {
+  padding-top: 50px;
+  margin-bottom: 200px;
+}
+
+
+
+button {
+  margin-top: 20px;
+}
+
+.textLink {
+  color: #0645AD;
+}

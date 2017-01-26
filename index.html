@@ -1,139 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html >
 <head>
-<title> Portfolio - Alex Cooper </title>
-<script src="https:use.fontawesome.com/8f0e46d75e.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script src="index.js"></script>
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <title>Alex Cooper - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.3.0/font-mfizz.css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css" />
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/index.css">
+
+  
 </head>
 
-<body id="top">
-
-
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="narvbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#defaultNavbar1">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>   
       </button>
-      <a class="navbar-brand" href="#top"><i class="fa fa-home"></i> Alex Cooper</a>
-    </div>
-    <div class="collapse navbar-collapse" id="navBar">
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#profile"><i class="fa fa-user"></i> Profile</a></li>
-      <li><a href="#projects"><i class="fa fa-briefcase"></i> Projects</a></li>
-      <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
-    </ul>
+      <a class="navbar-brand" href="#top">Alex Cooper</a>
+          <div class="collapse navbar-collapse" id="defaultNavbar1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+        <li><a href="#projects"><i class="fa fa-briefcase"></i> Projects</a></li>
+        <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
     </div>
   </div>
 </nav>
 
- <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Alex Cooper</h1>
-                        <p class="intro-text">An aspiring web developer, seeking opportunities to build and improve his skills.</p>
-                        <a href="#profile" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-down animated fa-4x"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+<header id="top">
+  <div class="heading">
+  <h2>“The happiest moment i've ever felt was that moment when i discovered my ability to create.” </br> 
+  ― Dr. Hazem Ali</h2></div>
+</header>
 
-<a name="profile"></a>
+  <div id="about">
+    <h1> About Me </h1>
+    <h4>I am a web developer living in Ithaca, NY. I have been working on the curriculum at freeCodeCamp, and seeking full-time employment. I am almost finished with the front-end certicication through freeCodeCamp, and plan to move on to the data visualization and back-end certifications as well, with the end-goal of becoming full-stack certified. I am also working through some courses through other websites. If you have any feedback on my projects, would like to become my employer, or have any other information you might think I'd find useful, pleae feel free to <a href="#contact" class="textLink">contact me.</a></h4>
+    
+    <h1> Skills </h1>
+    <h4> I have been working on a variety of front-end technologies, and plan to expand my knowledge onto other web and software development technologies in the near future.</h4>
+    
+<div class="row"> 
 
-<div class="prof content-section">
-
-<h3 class="container-fluid projstart">
-  About me:</h3>
-<p class="container-fluid">
-  My name is Alex Cooper and I am an aspiring iOS and Web Developer. 
-  I am currently working my way through the Front End Certification at FreeCodeCamp, and am planning on continuing on to full-stack certification as well. 
-  I have also started The Odin Project, and supplement my learning with resources such as W3Schools and Lynda.com.
-  </p>
-
+  <div class="col-md-4 col-xs-12">
+    <h1><i class="fa fa-html5"></i> + <i class="fa fa-css3"></i></h1>
+    <h5>HTML5 and CSS3</h5>
+    <p>I have been working on building a solid foundation on HTML and CSS, with a heavy focus on responsive, mobile-first design. While I have been focusing on getting a depper understanding of pure CSS, I have used Bootstrap, and am planning to use Sass.</p>
+  </div>
+  
+  <div class="col-md-4 col-xs-12">
+    <h1><i class="icon-javascript"></i></h1>
+    <h5>Javascript</h5>
+    <p>I have also been working on creating web applications using Javascript, many of which use jQuery.</p>
+  </div>
+  
+  <div class="col-md-4 col-xs-12">
+    <h1><i class="fa fa-code-fork"></i></h1>
+    <h5>Git</h5>
+    <p>By using GitHub to host many of my projects, I have gotten myself used to using git as a way to keep track of my revisions. </p>
+  </div>
+    
+</div>
+    
+    
+<div id="projects">
+  <h1>Projects</h1>
+  <h4>These are some of the projects I have completed, most of which are for the front-end curriculum at freeCodeCamp</h4>
+ 
+  <div class="row">
+  
+  <div class="col-md-4 col-xs-6 projectItem">
+    <a target="_blank" href="http://codepen.io/JSmurf/full/ZWJjjW"><h1><i class="fa fa-music"></i></h1>
+      <h5>Tribute Page</h5></a>
+    <p>A simple, responsive web page that provides a basic introduction to The Beatles. Made using Bootstrap.</p>
+  </div>
+  
+  <div class="col-md-4 col-xs-6 projectItem">
+    <a target="_blank" href="http://codepen.io/JSmurf/full/gMaEJL"><h1><i class="wi wi-umbrella"></i></h1>
+    <h5>Quote Machine</h5></a>
+    <p>A basic How I Met Your Mother quote generator. My first actual project that uses javascript. </p>
+  </div>
+  
+  <div class="col-md-4 col-xs-6 projectItem">
+    <a target="_blank" href="http://codepen.io/JSmurf/full/JKNARL"><h1><i class="wi wi-cloud"></i></h1>
+      <h5>Weather App</h5></a>
+    <p>A basic weather app that uses the OpenWeatherMap API to find the weather for your current location.</p>
+  </div>
+    
+ 
+  <div class="col-md-4 col-xs-6 projectItem">
+    <a target="_blank" href="http://codepen.io/JSmurf/full/PGZybj"><h1><i class="fa fa-wikipedia-w"></i></h1>
+    <h5>Wikipedia Viewer</h5></a>
+    <p>An app that uses the Wikipedia API to return results for a search term, providing you with the title and short description, as well as a link to click to visit the full page.</p>
+  </div>
+  
+  <div class="col-md-4 col-xs-6 projectItem">
+    <a target="_blank" href="http://codepen.io/JSmurf/full/qRBYLQ">
+      <h1><i class="fa fa-calculator"></i></h1>
+    <h5>Calculator</h5></a>
+    <p>A basic calculator made using Javascript. It's not 100% where I'd like it to be, and I will likely revisit it to update a lot of the functionality.</p>
+  </div>
+  
+  <div class="col-md-4 col-xs-6 projectItem">
+    <a target="_blank" href="http://codepen.io/JSmurf/full/wgGBmj"><h1><i class="fa fa-clock-o"></i></h1>
+      <h5>Pomodoro Timer</h5></a>
+    <p>A timer that allows you to choose two intervals and switches between them as each is finished.</p>
+  </div>
+    
+  </div>
+  
 </div>
 
-<div class="content-section">
-<h3> Some of the skills I'm currently working on: </h3>
-<ul class="skills">
-<li> HTML/CSS </li>
-<li> Javascript </li>
-<li> Bootstrap </li>
-<li> Swift </li>
-<li> Drupal </li>
-
-</ul>
-
+    
+<div id="contact">
+  <h1> Want to get ahold of me? </h1>
+  <h4>If you're interested in contacting me, <a target="_blank" href="mailto:alexcooper122311@gmail.com" class="textLink">email</a> usually tends to be your best bet. But if it's something you would rather do over the phone, I will give out my phone number by request. </h4>
+  <h2> Find me elsewhere </h2>
+  
+  <div class="col-md-3 col-sm-12">
+    <a  target="_blank" href="http://www.linkedin.com/in/AlexCooper1223" ><button class="btn btn-primary"><i class="fa fa-linkedin"></i> Linkedin</button></a>
+ </div>
+  <div class="col-md-3 col-sm-12">
+    <a target="_blank" href="https://github.com/JSmurf"><button class="btn btn-secondary"><i class="fa fa-github"></i> github</button></a>
+ </div>
+  <div class="col-md-3 col-sm-12">
+    <a target="_blank" href="http://codepen.io/JSmurf/"><button class="btn btn-info"><i class="fa fa-codepen"></i> CodePen</button></a>
+ </div>
+  <div class="col-md-3 col-sm-12">
+    <a target="_blank" href="https://www.freecodecamp.com/jsmurf"><button class="btn btn-success">freeCodeCamp<i class="fa fa-free-code-camp"></i></button></a>
+ </div>
+  
 </div>
-<a name="projects"></a>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 
-
-<div class="content-section">
-
-
-<h3 class="projstart">Here are some projects I've worked on:</h3>
-
-<div class="row">
-
-<div class="col-md-7">
-<a href="http://codepen.io/JSmurf/full/ZWJjjW/">
-<img class="img-responsive" src="http://s3-us-west-2.amazonaws.com/i.cdpn.io/559339.ZWJjjW.small.a259afe0-d804-4a8a-bf48-b9c922054297.png" alt="http://placehold.it/700x300">
-</a>
-</div>
-<div class="col-md-5">
-<h3> Tribute Page </h3>
-<p> The first project that I completed for FreeCodeCamp. This project was designed to give "campers" an understanding of basic HTML and CSS principles. This was also my first web page I've ever made with Bootstrap. </p>
-</div>
-</div>
-
-<br>
-<br>
-
-<div class="row">
-
-<div class="col-md-7">
-<a href="http://codepen.io/JSmurf/full/gMaEJL">
-<img class="img-responsive" src="http://i.imgur.com/dHkayaM.png?1" alt="http://placehold.it/700x300">
-</a>
-</div>
-<div class="col-md-5">
-<h3> Random Quote Generator </h3>
-<p> The first Javascript project on FreeCodeCamp. While it's not the most complicated project, it was a challenge to figure everthing out on my own. I also really enjoyed being able to see how different people solved the same problem.  </p>
-</div>
-</div>
-</div>           
-  <br>
-  <br>
-  <br>
-  <br>
-
-<section id="contact"></a>
-<h3 class="container-fluid projstart">Here's how you can get in touch with me:</h3>
-
-<ul class="list-inline row contact banner-social-buttons">
-  <li class="col-md-3">
-  <a role="button" class="btn btn-default btn-md" href="https://github.com/JSmurf"><i class="fa fa-github-alt fa-lg"></i> Github</a>
-  </li>
-  <li class="col-md-3">
-  <a target="_blank" class="btn btn-default btn-md" href="http://codepen.io/JSmurf/"><i class="fa fa-codepen fa-lg"></i> Codepen</a></li>
-  <li class="col-md-3">
-  <a target="_blank" class="btn btn-default btn-md" href="http://www.linkedin.com/in/AlexCooper1223"><i class="fa fa-linkedin fa-lg"></i> Linkedin</a>
-  </li>
-  <li class="col-md-3">
-  <a target="_blank" class="btn btn-default btn-md" href="mailto:alexcooper122311@gmail.com"><i class="fa fa-paper-plane fa-lg"></i> Email</a>
-  </li>
-    </ul>
-
-</section>
-
+  
+</body>
 </html>
