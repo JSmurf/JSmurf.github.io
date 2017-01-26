@@ -39,3 +39,8 @@ button {
 .textLink {
   color: #0645AD;
 }
+
+.btn-warning, .btn-warning:hover, .btn-warning:active, .btn-warning:visited {
+    background-color: #6e5494 !important;
+   border-color: #6e5494 !important; 
+}
