@@ -37,6 +37,7 @@ nav ul {
 @media (min-height: 300px) {
   nav ul {
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
   }
 } 
