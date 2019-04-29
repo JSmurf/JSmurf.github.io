@@ -2,4 +2,4 @@
 
 My GitHub Pages-hosted web development portfolio. 
 
-[See it live on GitHub Pages](http://jsmurf.github.io)
+[See it live on GitHub Pages](alexcooperdev.com)
