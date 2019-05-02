@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="styles/index.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Lora" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3b96d4">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <header>
@@ -34,7 +41,7 @@
                 About Me
             </h2>
             <p>
-                I am a web developer living in Horseheads, NY. I have been working on the curriculum at freeCodeCamp, and seeking full-time employment. I am almost finished with the front-end certification through freeCodeCamp, and plan to move on to the data visualization and back-end certifications as well, with the end-goal of becoming full-stack certified. I am also working through some courses through other websites. If you have any feedback on my projects, would like to become my employer, or have any other information you might think I'd find useful, pleae feel free to <a href="#contact">contact me.</a>
+                Hi! My name is Alex, and I'm a web developer living in Upstate New york. I am currently working at Cornell University as a Drupal Webmaster and Web Devloper, but I am open to great new opportunities. If you are looking for a developer in New York State, or someone to work remotely, and you like what you see here, feel free to <a href="#contact">contact me!</a>
             </p>
         </section>
         <section id="skills">
@@ -53,7 +60,7 @@
                 <div class="skill">
                     <h3><i class="fab fa-js"></i></h3>
                     <h4>Javascript</h4>
-                    <p>I have worked through several book, and other resources, to build up my foundation of Javascript knowledge. While I have been focussing mostly on vanilla Javascript, I have also worked in several different Javascript frameworks.</p>
+                    <p>I have worked through several books, and other resources, to build up my foundation of Javascript knowledge. While I have been focussing mostly on vanilla Javascript, I have also worked in several different Javascript frameworks.</p>
                 </div>
                 <div class="skill">
                     <h3><i class="fas fa-code-branch"></i></h3>
@@ -89,44 +96,37 @@
             <h2 class="section-head">
                 Examples
             </h2>
-            <div class="skills-grid">
-                <div class="skill">
-                    <a href="https://jsmurf.github.io/random-quote-machine/">
-                    <h3><i class="fas fa-umbrella"></i></h3>
-                    <h4>Random Quote Generator</h4></a>
-                    <p>A basic <em>How I Met Your Mother</em> quote generator. My first actual project that uses javascript.</p>
+            <h3 class="sub-heading">Spotlight</h3>
+            <p>
+                These are some examples that I really love.
+            </p>
+            <div class="project-spotlight">
+                <div class="project">
+                    <img alt="" src="assets/img/alumni-screen.png"/>
+                    <h4><a href="https://vet.cornell.edu/alumni">CVM Alumni</a></h4>
+                    <p>
+                        I created a new template for the Cornell University College of Veterinary Medicine's Alumni web page. I worked with Alumni Affairs and Development to create new styles that captured the vision of their staff.
+                    </p>
                 </div>
-                <div class="skill">
-                    <a href="https://jsmurf.github.io/weather/">
-                    <h3><i class="fas fa-cloud-sun-rain"></i></h3>
-                    <h4>Weather App</h4></a>
-                    <p>A basic weather app that uses the OpenWeatherMap API to find the weather for your current location.</p>
-                </div>
-                <div class="skill">
-                    <a href="https://jsmurf.github.io/javascript-calculator/">
-                    <h3><i class="fas fa-calculator"></i></h3>
-                    <h4>Javascript Calculator</h4></a>
-                    <p>A basic calculator made using Javascript. It's not 100% where I'd like it to be, and I will likely revisit it to update a lot of the functionality.</p>
-                </div>
-                <div class="skill">
-                    <a href="https://jsmurf.github.io/wikipedia-viewer/">
-                    <h3><i class="fab fa-wikipedia-w"></i></h3>
-                    <h4>Wikipedia Viewer</h4></a>
-                    <p>An app that uses the Wikipedia API to return results for a search term, providing you with the title and short description, as well as a link to click to visit the full page.</p>
-                </div>
-                <div class="skill">
-                    <a href="https://jsmurf.github.io/twitch-viewer/">
-                    <h3><i class="fas fa-gamepad"></i></h3>
-                    <h4>Twitch Viewer</h4></a>
-                    <p>An app that uses the Twitch API to get information about users who are currently streaming games on the Twitch platform.</p>
-                </div>
-                <div class="skill">
-                    <a href="https://jsmurf.github.io/pomodoro-timer/">
-                    <h3><i class="fas fa-clock"></i></h3>
-                    <h4>Pomodoro Timer</h4></a>
-                    <p>A timer that allows you to choose two intervals and switches between them as each is finished.</p>
+                <div class="project">
+                    <img alt="" src="assets/img/javascript-calculator-screen.png"/>
+                    <h4><a href="https://alexcooperdev.com/javascript-calculator"> Javascript Calculator</a></h4>
+                    <p>
+                        I created a calculator originally for the freeCodeCamp front end certification. This was something that I put together quickly, and the original version is still available on codepen.io. However, a few years later I totally reworked this to look and feel closer to my original vision.
+                    </p>
                 </div>
             </div>
+            <h3 class="sub-heading">freeCodeCamp</h3>
+            <p>
+                These are a few of the projects I've built while working on my freeCodeCamp certificates. You can see more, as well as some of the other exercises I've completed by viewing my <a href="https://www.freecodecamp.org/alexcooperdev">freeCodeCamp portfolio.</a>
+            </p>
+            <ul>
+                <li><a href="https://alexcooperdev.com/random-quote-machine/">Random Quote Generator</a> - my first "real" Javascript project. It takes a random quote from an array and displays it, allowing you to tweet the quote if you'd like.</li>
+                <!-- <li><a href="https://alexcooperdev.com/weather">Weather App</a> - A basic weather app that uses the OpenWeatherMap API to find the weather for your current location.</li> -->
+                <li><a href="https://alexcooperdev.com/wikipedia-viewer">Wikipedia Viewer</a> - An app that uses the Wikipedia API to return results for a search term, specifically the title, descriptons, and url.</li>
+                <li><a href="https://alexcooperdev.com/twitch-viewer">Twitch Viewer</a> - An app using the Twitch API to display information about certain streamers on Twitch.</li>
+                <li><a href="https://alexcooperdev.com/pomodoro-timer">Pomodoro Timer</a> - A timer that allows you to choose two intervals, and switches from one to the other as the timer finishes.</li>
+            </ul>
         </section>
         <section id="contact">
             <h2 class="section-head">
@@ -136,7 +136,7 @@
                 <li>Linkedin: <a href="https://www.linkedin.com/in/alexcooper1223/" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
                 <li>GitHub: <a href="https://github.com/JSmurf" class="github"><i class="fab fa-github"></i></a></li>
                 <li>CodePen: <a href="https://codepen.io/JSmurf/" class="codepen"><i class="fab fa-codepen"></i></a></li>
-                <li>freeCodeCamp: <a href="https://www.freecodecamp.com/jsmurf" class="freecodecamp"><i class="fab fa-free-code-camp"></i></a></li>
+                <li>freeCodeCamp: <a href="https://www.freecodecamp.com/alexcooperdev" class="freecodecamp"><i class="fab fa-free-code-camp"></i></a></li>
                 <li>Email: <a href="mailto:Alex@AlexCooperDev.com" class="email"><i class="fas fa-envelope"></i></a></li>
             </ul>
         </section>
