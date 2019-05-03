@@ -25,12 +25,17 @@ header {
   background: var(--gray);
   color: white;
   /* padding: 4rem; */
-  height: 40vh;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  /* height: 40vh; */
+  padding-top: 15vh;
+  padding-bottom: 15vh;
   box-sizing: border-box;
   text-align: center;
   font-family: 'Lato', sans-serif;
+}
+
+header > h1 {
+    position: absolute;
+    top: 40%;
 }
 
 nav {
@@ -43,6 +48,11 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
 }
 
 @media (min-height: 300px) {
@@ -75,7 +85,7 @@ section {
 }
 
 section h1 {
-  font-family: 'Lora', serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .skill {
