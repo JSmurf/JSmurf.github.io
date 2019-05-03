@@ -71,7 +71,7 @@ main {
 
 section {
   padding: 2rem;
-  margin: 0 0 2rem 0;
+  /* margin: 0 0 2rem 0; */
 }
 
 section h1 {
@@ -114,11 +114,16 @@ section h3 {
 .project > img {
     height: 250px;
     width: auto;
+    border: 1px solid #99a;
 }
 
 .contact-list {
   list-style: none;
   font-size: 30px;
+}
+
+.spaced-list > li {
+    margin: 1em 0;
 }
 
 .contact-list > li {
