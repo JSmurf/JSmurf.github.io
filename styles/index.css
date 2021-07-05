@@ -1,5 +1,6 @@
 :root {
-  --light-blue: #3b96d4;
+  /* --light-blue: #3b96d4; */
+    --light-blue: #277CB4;
   --gray: #6e6e6e;
 }
 
@@ -21,7 +22,8 @@ a {
 }
 
 a:hover {
-    color: #216897;
+    /* color: #216897; */
+    text-decoration: underline;
 }
 
 header {
@@ -122,6 +124,10 @@ section h3 {
 
 .sub-heading {
     font-size: 1.25rem;
+}
+
+.sub-sub-heading {
+    font-size: 1rem;
 }
 
 .skills-grid {
