@@ -92,9 +92,9 @@ nav ul li a.current:hover {
     color: var(--light-blue);
 }
 
-main {
+/* main {
   padding-bottom: 30rem;
-}
+} */
 
 section {
   padding: 2.5rem;
@@ -183,6 +183,7 @@ footer {
     background: #6e6e6e;
     color: white;
     padding: 5rem 1rem;
+    text-align: center;
 }
 
 @media (min-width: 600px) {
