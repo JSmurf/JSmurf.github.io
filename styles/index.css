@@ -152,30 +152,6 @@ section h3 {
     border: 1px solid #99a;
 }
 
-.linkedin {
-color: #0077B5;
-}
-
-.github {
-  color: #6E5494;
-}
-
-.codepen {
-  color: #00ACED;
-}
-
-.freecodecamp {
-  color: #006400;
-}
-
-.twitter {
-    color: #1da1f2;
-}
-
-.email {
-  color: var(--gray);
-}
-
 footer {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
